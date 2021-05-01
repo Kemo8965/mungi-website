@@ -14,7 +14,7 @@ const Footer = () => {
             
             <footer className="text-blue-400 bg-blue-300 rounded-tl-full body-font">
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+    <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-left lg:text-center md:mt-0 ml-24">
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
@@ -23,10 +23,14 @@ const Footer = () => {
       </a>
       <p className="mt-2 text-sm text-gray-500">18 Buluwe Road,<br/> Woodlands,<br/> Lusaka,<br/> Zambia.</p>
     </div>
-    <div className="flex-grow flex flex-wrap md:pl-60 -mb-10 md:text-left text-center order-first">
+    <div className="flex-grow flex flex-wrap md:pl-60 ml-24 text-left mb-10 md:text-left  order-first">
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">Company</h2>
         <nav className="list-none mb-10">
+
+        <li>
+            <a href="/" className="text-gray-800 hover:text-gray-500">Home</a>
+          </li>
           <li>
             <a href="/About" className="text-gray-800 hover:text-gray-500">About Us</a>
           </li>
@@ -34,7 +38,7 @@ const Footer = () => {
             <a href="/TermsOfService" className="text-gray-800 hover:text-gray-500">Terms Of Service</a>
           </li>
           <li>
-            <a href="/Privacy" className="text-gray-800 hover:text-gray-500">Privacy Policy</a>
+            <a href="/PrivacyPolicy" className="text-gray-800 hover:text-gray-500">Privacy Policy</a>
           </li>
           
         </nav>
@@ -44,7 +48,7 @@ const Footer = () => {
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">Resources</h2>
         <nav className="list-none mb-10">
           <li>
-            <a href="/FeaturesPage" className="text-gray-800 hover:text-gray-500">Features</a>
+            <a href="/Contact" className="text-gray-800 hover:text-gray-500">Contact</a>
           </li>
           <li>
             <a href="/Certificates" className="text-gray-800 hover:text-gray-500">Certificates</a>
@@ -57,7 +61,7 @@ const Footer = () => {
   </div>
   <div className="bg-gray-100">
     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p className="text-gray-500 pl-64 text-sm text-center sm:text-left">&copy; {new Date().getFullYear()} Mungi Company Limited
+      <p className="text-gray-500 lg:pl-64 ml-24 text-sm lg:text-center text-left">&copy; {new Date().getFullYear()} Mungi Company Limited
         <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank"></a>
       </p>
       <span className="inline-flex pr-36 sm:ml-auto sm:mt-0 mt-2 text-blue-600 justify-center sm:justify-start">

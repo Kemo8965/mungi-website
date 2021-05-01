@@ -9,7 +9,10 @@ const NewSidebar = () => {
             <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
               <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
               <div className="flex items-center flex-shrink-0 text-white mr-6">
+                <a href="/">
                 <img className="w-20 h-20 mr-4  object-cover rounded-full border border-gray-200" src={process.env.PUBLIC_URL + '/assets/mungi-logo.png'} alt="logo"/>
+                </a>
+               
                 
              </div>
                 <button

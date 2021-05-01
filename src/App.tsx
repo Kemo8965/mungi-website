@@ -10,6 +10,8 @@ import ScrollToTop from 'react-scroll-up'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Footer from './components/Footer';
 import Certificates from './components/Certificates';
+import TermsOfService from './pages/TermsOfService';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
       <Route path="/About" component={About}/>
       <Route path="/Contact" component={Contact}/>
       <Route path="/Certificates" component={Certificates}/>
+      <Route path="/TermsOfService" component={TermsOfService}/>
+      <Route path="/PrivacyPolicy" component={PrivacyPolicy}/>
      
       </Switch>
       <Footer/>
