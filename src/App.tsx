@@ -12,22 +12,39 @@ import Footer from './components/Footer';
 import Certificates from './components/Certificates';
 import TermsOfService from './pages/TermsOfService';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import Agriculture from './pages/Agriculture';
+import Construction from './pages/Construction';
+import WelpAutoSec from './pages/WelpAutoSec';
+import Trade from './pages/Trade';
+import ZraCertificate from './components/Certificates/zra';
+import PacraCertificate from './components/Certificates/pacra';
+import NapsaCertificate from './components/Certificates/napsa';
+import ZppaCertificate from './components/Certificates/zppa';
 
 
 function App() {
   return (
     <Router>
-       <div className="App font-sans">
+       <div className="App">
 
       <NewSidebar/>
 
       <Switch>
       <Route path="/" exact component={NewHeader}/>
-      <Route path="/About" component={About}/>
-      <Route path="/Contact" component={Contact}/>
-      <Route path="/Certificates" component={Certificates}/>
-      <Route path="/TermsOfService" component={TermsOfService}/>
-      <Route path="/PrivacyPolicy" component={PrivacyPolicy}/>
+      <Route path="/about" component={About}/>
+      <Route path="/contact" component={Contact}/>
+      <Route path="/certificates" component={Certificates}/>
+      <Route path="/terms-of-service" component={TermsOfService}/>
+      <Route path="/privacy-policy" component={PrivacyPolicy}/>
+      <Route path="/agriculture" component={Agriculture}/>
+      <Route path="/construction" component={Construction}/>
+      <Route path="/welp-automotive-security" component={WelpAutoSec}/>
+      <Route path="/trade" component={Trade}/>
+
+      <Route path="/zra" component={ZraCertificate}/>
+      <Route path="/pacra" component={PacraCertificate}/>
+      <Route path="/napsa" component={NapsaCertificate}/>
+      <Route path="/zppa" component={ZppaCertificate}/>
      
       </Switch>
       <Footer/>

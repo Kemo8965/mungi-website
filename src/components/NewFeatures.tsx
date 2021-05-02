@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { ArrowCircleRightIcon } from '@heroicons/react/outline'
+
 import React from 'react'
 
 const NewFeatures = () => {
@@ -23,12 +23,12 @@ const NewFeatures = () => {
         With our partners and other outgrowers, provide these products for sale on a retail basis. 
         We have also invested in cattle, wealth management and egg production.</p>
         <button>
-        <a href="#" className="lg:text-sm  mt-3 ml-5 text-blue-400 h-20 w-20 font-semibold inline-flex items-center hover:text-blue-800">
-          
-          Learn More
-
-          <ArrowCircleRightIcon/>
-        </a>
+        <a href="/agriculture" className="text-indigo-400 lg:pt-5 lg:ml-4 inline-flex items-center">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
         </button>
         
       </div>
@@ -38,12 +38,12 @@ const NewFeatures = () => {
         <h2 className=" lg:text-left lg:pl-44 font-medium title-font text-xl text-gray-900 mb-1 ">Construction</h2>
         <p className="leading-relaxed text-left lg:pl-44">We provide civil engineering, project management, Architectural design and construction services.</p>
         <button>
-        <a href="#" className="lg:text-sm   mt-3 ml-44 text-blue-400 h-20 w-20 font-semibold inline-flex items-center hover:text-blue-800">
-          
-          Learn More
-
-          <ArrowCircleRightIcon/>
-        </a>
+        <a href="/construction" className="text-indigo-400 lg:pt-5 lg:ml-44 inline-flex items-center">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
         </button>
       </div>
       <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-400 flex-shrink-0">
@@ -58,12 +58,12 @@ const NewFeatures = () => {
         <h2 className="text-gray-900 font-medium lg:pl-3 title-font text-xl">WELP Automotive Security Technology</h2>
         <p className="leading-relaxed text-left lg:pl-3 lg:text-left">WELP is an end-to-end vehicle security service providing complete alarm systems, anti-theft and bullet-proofing.</p>
         <button>
-        <a href="#" className="lg:text-sm  mt-3 ml-5 text-blue-400 h-20 w-20 font-semibold inline-flex items-center hover:text-blue-800">
-          
-          Learn More
-
-          <ArrowCircleRightIcon/>
-        </a>
+        <a href="/welp-automotive-security" className="text-indigo-400 lg:pt-5 lg:ml-4  inline-flex items-center">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
         </button>
       </div>
     </div>
@@ -73,12 +73,12 @@ const NewFeatures = () => {
         <h2 className="lg:text-left lg:pl-44 font-medium title-font text-xl text-gray-900 mb-1">Trade</h2>
         <p className="leading-relaxed text-left lg:pl-44">We provide civil engineering, project management, Architectural design and construction services.</p>
         <button>
-        <a href="#" className="lg:text-sm ml-44  mt-3 text-blue-400 h-20 w-20 font-semibold inline-flex items-center hover:text-blue-800">
-          
-          Learn More
-
-          <ArrowCircleRightIcon/>
-        </a>
+        <a href="/trade" className="text-indigo-400 lg:pt-5 lg:ml-44 inline-flex items-center">Learn More
+            <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
         </button>
       </div>
       <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-400 flex-shrink-0">
