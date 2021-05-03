@@ -22,29 +22,30 @@ const WelpAutoSec = () => {
           <article className="lg:pb-20 p-5 text-xl text-left lg:space-y-6 ">
 
               <p>
-            We own and have access to 500 hectares of land and farm implements
-            on which we cultivate crops and rear livestock. With our partners
-            and other outgrowers, provide these products for sale on a retail
-            basis. We have also invested in cattle, wealth management and egg
-            production.
+                  We develop and produce armoured vehicles in various security levels- 
+                  from fully armoured vehicles that comply with the highest military standards through to individal partial light armour. With this in mind, we only use certified high-quality ballistic materials.
+
             </p>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-              itaque dignissimos doloribus unde laborum mollitia aspernatur
-              perferendis beatae obcaecati, ullam commodi officiis saepe. Dolore
-              unde odio dicta reiciendis suscipit harum totam alias mollitia at
-              itaque natus laborum quibusdam necessitatibus, consequatur facilis
-              accusamus quasi libero eos fugiat molestiae voluptas veritatis
-              quae? Beatae accusamus fugiat voluptatem quos quo obcaecati, vitae
-              saepe commodi provident quis cupiditate eius nulla blanditiis
-              autem, minima illo minus recusandae laboriosam quibusdam!
-              Veritatis unde ipsam animi adipisci, quos laudantium molestiae
-              dolorem odio ullam quo voluptas ducimus maiores, voluptate esse
-              doloribus, repellendus consectetur placeat eveniet alias
-              perspiciatis sapiente non aliquam.
+              Our portfolio includes offroad vehicles, limousines and commercial vehicles which we customise for a wide range of applications with numerous configuration options and systems.
+              We are proud to be supporting or customers with our numerous years of experience, state-of-the-art machinery and zero-tolerance policy to errors.
+              After all, when it comes to safety, there's no compromise.
             </p>
-          </article>
+
+            <p>
+              All our armoured vehicles have been tested under the most rigorous conditions in our ballistics laboratory and certified by the national proof house.
+              We have specially adapted and reinforced the chasis components in or vehicles to ensure safe handling in all situations.  
+            </p>
+
+            <p>
+              And we also offer you a whole host of services designed to ensure you can always use your vehicle to its full potential.
+              These include:
+              <li>Repairs(infield inclusive)</li>
+              <li>Driver training</li>
+              <li>Global spare parts supply</li>
+            </p>
+                      </article>
 
           
         </div>

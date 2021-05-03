@@ -16,10 +16,10 @@ const Footer = () => {
         </svg>
         <span className="ml-3 text-xl">Mungi Company Limited</span>
       </a>
-      <p className="mt-2 text-sm text-gray-500">18 Buluwe Road,<br/> Woodlands,<br/> Lusaka,<br/> Zambia.</p>
+      <p className="mt-2 text-sm text-gray-500">8 John Soko Road,<br/> Nyumba Yanga,<br/> Lusaka,<br/> Zambia.</p>
     </div>
     <div className="flex-grow flex flex-wrap md:pl-60 ml-24 text-left mb-10 md:text-left  order-first">
-      <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+      <div className="lg:w-1/4 md:w-1/2 w-full px-1">
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">Company</h2>
         <nav className="list-none mb-10">
 

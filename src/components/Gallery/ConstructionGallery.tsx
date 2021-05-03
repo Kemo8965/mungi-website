@@ -13,7 +13,7 @@ const Gallery = () => {
       <div className="lg:w-1/2 sm:w-1/2 p-4 lg:py-20">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full lg:h-80 h-full object-cover object-center" src={process.env.PUBLIC_URL + "/assets/cons1.jpeg"}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
@@ -23,7 +23,7 @@ const Gallery = () => {
       <div className="lg:w-1/2 sm:w-1/2 p-4 lg:py-20">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full lg:h-80 h-full object-cover object-center" src={process.env.PUBLIC_URL + "/assets/cons2.jpeg"}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
@@ -34,7 +34,7 @@ const Gallery = () => {
       <div className="lg:w-1/2 sm:w-1/2 p-4 lg:py-20">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full lg:h-80 h-full object-cover object-center" src={process.env.PUBLIC_URL + "/assets/cons3.jpeg"}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
@@ -44,7 +44,7 @@ const Gallery = () => {
       <div className="lg:w-1/2 sm:w-1/2 p-4 lg:py-20">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full lg:h-80 h-full object-cover object-center" src={process.env.PUBLIC_URL + "/assets/cons4.jpeg"}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
@@ -55,7 +55,7 @@ const Gallery = () => {
       <div className="lg:w-1/2 sm:w-1/2 p-4 lg:py-20">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full lg:h-80 h-full object-cover object-center" src={process.env.PUBLIC_URL + "/assets/cons5.jpeg"}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
@@ -65,7 +65,7 @@ const Gallery = () => {
       <div className="lg:w-1/2 sm:w-1/2 p-4 lg:py-20">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full lg:h-80 h-full object-cover object-center" src={process.env.PUBLIC_URL + "/assets/cons8.jpeg"}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
@@ -76,7 +76,7 @@ const Gallery = () => {
       <div className="lg:w-1/2 sm:w-1/2 p-4 lg:py-20">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full lg:h-80 h-full object-cover object-center" src={process.env.PUBLIC_URL + "/assets/cons9.jpeg"}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
@@ -86,7 +86,7 @@ const Gallery = () => {
       <div className="lg:w-1/2 sm:w-1/2 p-4 lg:py-20">
         <div className="flex relative">
           <img alt="gallery" className="absolute inset-0 w-full lg:h-80 h-full object-cover object-center" src={process.env.PUBLIC_URL + "/assets/cons10.jpeg"}/>
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0">
             <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE</h2>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
             <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>

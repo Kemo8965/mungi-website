@@ -13,7 +13,7 @@ const Certificates = () => {
       </div>
 <     section>
         <button className="w-1/5 ml-10 h-12 bg-blue-400 text-white rounded-xl"><a href="/zra"> ZRA Tax Clearance Certificate</a></button>
-        <button className="w-1/5 ml-10  h-12 bg-blue-400 text-white rounded-xl"><a href="/pacra"> PACRA Certificate of Incorporation</a></button>
+        <button className="w-1/5 ml-10   h-12 bg-blue-400 text-white rounded-xl"><a href="/pacra"> PACRA Certificate of Incorporation</a></button>
         <button className="w-1/5 ml-10  h-12 bg-blue-400 text-white rounded-xl"><a href="/napsa"> NAPSA Compliance Certificate</a></button>
         <button className="w-1/5 ml-10  h-12 bg-blue-400 text-white rounded-xl"><a href="/zppa"> ZPPA Supplier Certificate</a></button>
         

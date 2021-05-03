@@ -27,21 +27,7 @@ const Agriculture = () => {
             production.
             </p>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-              itaque dignissimos doloribus unde laborum mollitia aspernatur
-              perferendis beatae obcaecati, ullam commodi officiis saepe. Dolore
-              unde odio dicta reiciendis suscipit harum totam alias mollitia at
-              itaque natus laborum quibusdam necessitatibus, consequatur facilis
-              accusamus quasi libero eos fugiat molestiae voluptas veritatis
-              quae? Beatae accusamus fugiat voluptatem quos quo obcaecati, vitae
-              saepe commodi provident quis cupiditate eius nulla blanditiis
-              autem, minima illo minus recusandae laboriosam quibusdam!
-              Veritatis unde ipsam animi adipisci, quos laudantium molestiae
-              dolorem odio ullam quo voluptas ducimus maiores, voluptate esse
-              doloribus, repellendus consectetur placeat eveniet alias
-              perspiciatis sapiente non aliquam.
-            </p>
+            
           </article>
 
           

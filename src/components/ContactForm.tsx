@@ -34,7 +34,8 @@ export default function form(){
         </div>
         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-          <a className="text-indigo-500 leading-relaxed" href="mailto:sales@mungi.com">sales@mungi.com</a>
+          <li><a className="text-indigo-500 leading-relaxed" href="mailto:sales@mungicompany.com">sales@mungicompany.com</a></li>
+          <li><a className="text-indigo-500 leading-relaxed" href="mailto:info@mungicompany.com">info@mungicompany.com</a></li>
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
           <p className="leading-relaxed"><a href="tel:+260-972-836-538">+260-972-836-538</a></p>
           <p className="leading-relaxed"><a href="tel:+260-962-220-856">+260-962-220-856</a></p>
